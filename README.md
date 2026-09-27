@@ -1,104 +1,64 @@
-# 🚀 2025년 6월 프로젝트 시작 ✨
+## 김현우 · Hyunwoo Kim
 
-안녕하세요! 2025년 6월부터 진행하는 저의 연구, 프로젝트, 그리고 학습 기록을 이곳에 정리합니다.
+Researcher at **KETI** (Korea Electronics Technology Institute), Seoul.
+By day I work on in-vehicle networking for software-defined vehicles — TSN / automotive Ethernet, embedded and FPGA-based network hardware, and robot platforms.
+On my own time I build small, measured experiments in:
 
----
+- **ML systems** — inference cost, distillation, quantization, decoding without generation
+- **Neural rendering & world models** — interactive video world models on a single consumer GPU
+- **Connectome-driven robotics** — running the FlyWire fruit-fly connectome as a controller, with controls that can show it failing
+- **Embedded & automotive networking** — MCUs, CAN/serial protocols, OpenWrt, sensor bridges
 
-## 📚 기술 블로그 & 논문 연구 (GitHub Blog)
+I care about saying exactly what was measured: most of my READMEs have a "what did not work" section.
 
-> **주요 연구 분야:** Time-Sensitive Networking (TSN), Reinforcement Learning (RL)
-
-* **논문 리뷰**
-    * 📄 [Paper Review #1](https://hwkim3330.github.io/blog/paper) (`https://hwkim3330.github.io/blog/paper`)
-    * 📄 [Paper Review #2](https://hwkim3330.github.io/blog/paper2) (`https://hwkim3330.github.io/blog/paper2`)
-* **TSN/TAS 연구**
-    * 📝 [IEEE 802.1Qbv 논문 학습](https://hwkim3330.github.io/blog/qbv/0) (`https://hwkim3330.github.io/blog/qbv/0`)
-* **블로그 포스트**
-    * 🏠 [블로그 메인](https://hwkim3330.github.io/blog/) (`https://hwkim3330.github.io/blog/`)
-    * ✍️ [포스트 #1](https://hwkim3330.github.io/blog/1) / [#2](https://hwkim3330.github.io/blog/2) / [#3 (테스트)](https://hwkim3330.github.io/blog/3)
+KETI(한국전자기술연구원) 연구원입니다. 업무로는 SDV 차량 내 네트워크(TSN·차량용 이더넷), 임베디드·FPGA 네트워크 장비, 로봇 플랫폼을 다룹니다.
+개인적으로는 ML 시스템, 뉴럴 렌더링·월드 모델, 커넥톰 기반 로보틱스, 임베디드·차량 네트워킹을 작은 실험으로 직접 만들고 재 봅니다. 잰 것만 주장하고, 안 된 것도 같이 적습니다.
 
 ---
 
-## 🧠 데이터 사이언스 & 강화학습 (Kaggle)
+### Selected projects · 대표 프로젝트
 
-> 실제 데이터로 실험하고 모델을 구현하는 프로젝트들입니다.
+| Project | What it is | Demo |
+|---|---|---|
+| [**flyworker**](https://github.com/hwkim3330/flyworker) | QA fuzzer for browser games: synthetic input, framebuffer-only observation, five deterministic bug rules, replayable HTML reports. One policy is the FlyWire connectome (138,639 neurons) — benchmarked against random baselines, and it loses. | [live](https://hwkim3330.github.io/flyworker/) · [HF Space](https://huggingface.co/spaces/kimhyunwoo/flyworker) |
+| [**gta6-world**](https://github.com/hwkim3330/gta6-world) | Driving the Matrix-Game 2.0 world model from one game frame on one RTX 3090: 1-step LoRA distillation (2.08×), upscaling and frame interpolation, plus a list of speedups that turned out not to be real. | — |
+| [**model-as-codec**](https://github.com/hwkim3330/model-as-codec) | How much does a shared generative model really save in transmission, and what does it lose? VAE video, EnCodec/DAC audio and MIDI measured against x264/Opus, with the model counted as cost. | — |
+| [**pluto-re**](https://github.com/hwkim3330/pluto-re) | Reverse-engineering a binary-only StarCraft: BW AI: a 315M-parameter int8 model (unit transformer + spatial CNN + GRU core) reconstructed from Ghidra decompilation, plus its observation, action and fog-of-war behaviour. | — |
+| [**seamcheck**](https://github.com/hwkim3330/seamcheck) | Vesuvius Challenge Open Problem #3: finds where a papyrus surface trace jumped to the wrong sheet, CPU-only, under a second per segment. | — |
+| [**micro-x**](https://github.com/hwkim3330/micro-x) | Independently designed 14-servo small biped robot: original CAD, MuJoCo model, measured joint travel, balance and printability checks. Digitally verified; not yet built. | [3D viewer](https://hwkim3330.github.io/micro-x/web/) |
 
-* **GCL (Graph Contrastive Learning) 연구**
-    * 📓 [GCL Notebook (d7b340a738)](https://www.kaggle.com/code/hwkims/gcl-notebookd7b340a738) (`https://www.kaggle.com/code/hwkims/gcl-notebookd7b340a738`)
-    * 📓 [GCL Notebook (790ead1f5f)](https://www.kaggle.com/code/hwkims/gcl-notebook790ead1f5f) (`https://www.kaggle.com/code/hwkims/gcl-notebook790ead1f5f`)
-* **강화학습**
-    * 🤖 [강화학습 PPO 테스트](https://www.kaggle.com/code/hwkims/gclpponotebookd88ef72d96) (`https://www.kaggle.com/code/hwkims/gclpponotebookd88ef72d96`)
-* **기타**
-    * 📓 [일반 분석 노트북](https://www.kaggle.com/code/hwkims/notebookc1b8ab99e0) (`https://www.kaggle.com/code/hwkims/notebookc1b8ab99e0`)
-
----
-
-## ✨ 주요 링크 (My Links)
-
-<p>
-  <a href="https://github.com/hwkims" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/hwkims/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://huggingface.co/kimhyunwoo" target="_blank"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
-  <a href="https://velog.io/@hwkims/posts" target="_blank"><img alt="Velog" src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"/></a>
-  <a href="https://www.kaggle.com/hwkims" target="_blank"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/></a>
-  <a href="https://blog.naver.com/hwkims" target="_blank"><img alt="Naver Blog" src="https://img.shields.io/badge/Naver_Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
-</p>
+More · 그 밖에:
+[nogeneration](https://github.com/hwkim3330/nogeneration) (decisions read from logits, no tokens generated) ·
+[micro-cat-fly](https://github.com/hwkim3330/micro-cat-fly) (fixed connectome steering a goal-directed robot command, with controls) ·
+[mujoco-unitree](https://github.com/hwkim3330/mujoco-unitree) ([demo](https://hwkim3330.github.io/mujoco-unitree/)) ·
+[agilex-scout-mini](https://github.com/hwkim3330/agilex-scout-mini) (CAN/RS232 without the vendor SDK) ·
+[openwrt#24707](https://github.com/openwrt/openwrt/pull/24707) (ipTIME A3004NS-M board port, in review) ·
+[touchcast](https://github.com/hwkim3330/touchcast) ·
+[dynamic-notch](https://github.com/hwkim3330/dynamic-notch) ·
+[pincet](https://github.com/hwkim3330/pincet) ([demo](https://hwkim3330.github.io/pincet/)) ·
+[serial-web](https://github.com/hwkim3330/serial-web)
 
 ---
 
-## 🖼️ 프로젝트 이미지
+### Tools · 기술
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cc7c84cc-f3fe-4502-bf66-7f7bcf14fcaa" alt="Project Vision Image" width="700"/>
-</p>
-
-<hr>
-![214442620](https://github.com/user-attachments/assets/58dc0e61-ec5d-4915-b350-7d44c92e4b9e)
-
-## 🌍 English Version for International Visitors
-
-### # 🚀 Project Start: June 2025 ✨
-
-Hello! This is a log of my research, projects, and studies, starting from June 2025.
+- **ML** — PyTorch, diffusion / video world models, LoRA distillation, quantization, ONNX / transformers.js, MLX
+- **Systems & embedded** — C/C++, Python, Rust, ESP32, STM32, Infineon AURIX, Jetson, OpenWrt, CAN, Zephyr
+- **Networking** — IEEE 802.1 TSN (Qbv, Qav, CB), automotive Ethernet
+- **Robotics & sim** — MuJoCo (incl. WASM), ROS 2, CARLA, CAD for 3D printing
+- **Web** — JavaScript/TypeScript, WebGPU, WebAssembly, Three.js
+- **Reverse engineering** — Ghidra, binary and protocol analysis
 
 ---
 
-### ## 📚 Tech Blog & Research (GitHub Blog)
+### Links · 연락
 
-> **Main Research Areas:** Time-Sensitive Networking (TSN), Reinforcement Learning (RL)
-
-* **Paper Reviews**
-    * 📄 [Paper Review #1](https://hwkim3330.github.io/blog/paper) (`https://hwkim3330.github.io/blog/paper`)
-    * 📄 [Paper Review #2](https://hwkim3330.github.io/blog/paper2) (`https://hwkim3330.github.io/blog/paper2`)
-* **TSN/TAS Research**
-    * 📝 [IEEE 802.1Qbv Paper Study](https://hwkim3330.github.io/blog/qbv/0) (`https://hwkim3330.github.io/blog/qbv/0`)
-* **Blog Posts**
-    * 🏠 [Blog Main](https://hwkim3330.github.io/blog/) (`https://hwkim3330.github.io/blog/`)
-    * ✍️ [Post #1](https://hwkim3330.github.io/blog/1) / [#2](https://hwkim3330.github.io/blog/2) / [#3 (Test)](https://hwkim3330.github.io/blog/3)
-
----
-
-### ## 🧠 Data Science & Reinforcement Learning (Kaggle)
-
-> Projects where I experiment with real data and implement models.
-
-* **GCL (Graph Contrastive Learning) Research**
-    * 📓 [GCL Notebook (d7b340a738)](https://www.kaggle.com/code/hwkims/gcl-notebookd7b340a738) (`https://www.kaggle.com/code/hwkims/gcl-notebookd7b340a738`)
-    * 📓 [GCL Notebook (790ead1f5f)](https://www.kaggle.com/code/hwkims/gcl-notebook790ead1f5f) (`https://www.kaggle.com/code/hwkims/gcl-notebook790ead1f5f`)
-* **Reinforcement Learning**
-    * 🤖 [RL PPO Test](https://www.kaggle.com/code/hwkims/gclpponotebookd88ef72d96) (`https://www.kaggle.com/code/hwkims/gclpponotebookd88ef72d96`)
-* **Misc**
-    * 📓 [General Analysis Notebook](https://www.kaggle.com/code/hwkims/notebookc1b8ab99e0) (`https://www.kaggle.com/code/hwkims/notebookc1b8ab99e0`)
-
----
-
-### ## ✨ My Links
-
-<p>
-  <a href="https://github.com/hwkims" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/hwkims/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://huggingface.co/kimhyunwoo" target="_blank"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
-  <a href="https://velog.io/@hwkims/posts" target="_blank"><img alt="Velog" src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"/></a>
-  <a href="https://www.kaggle.com/hwkims" target="_blank"><img alt="Kaggle" src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/></a>
-  <a href="https://blog.naver.com/hwkims" target="_blank"><img alt="Naver Blog" src="https://img.shields.io/badge/Naver_Blog-03C75A?style=for-the-badge&logo=naver&logoColor=white"/></a>
-</p>
+[Email](mailto:hwkim3330@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/hwkims/) ·
+[Hugging Face](https://huggingface.co/kimhyunwoo) ·
+[Kaggle](https://www.kaggle.com/hwkims) ·
+[Homepage](https://hwkim3330.github.io/) ·
+[Tech blog](https://hwkim3330.github.io/blog/) ·
+[Velog](https://velog.io/@hwkims/posts) ·
+[Naver Blog](https://blog.naver.com/hwkims) ·
+[GitHub @hwkims](https://github.com/hwkims)
