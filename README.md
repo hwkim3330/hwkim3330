@@ -1,3 +1,6 @@
+<img width="1152" height="720" alt="image" src="https://github.com/user-attachments/assets/03e60d6e-fd4e-45b5-91c9-7190869496c4" />
+
+
 # 🚀 2025년 6월 프로젝트 시작 ✨
 
 안녕하세요! 2025년 6월부터 진행하는 저의 연구, 프로젝트, 그리고 학습 기록을 이곳에 정리합니다.
