@@ -1,4 +1,4 @@
-<img width="1152" height="720" alt="image" src="https://github.com/user-attachments/assets/03e60d6e-fd4e-45b5-91c9-7190869496c4" />
+<img width="1152" height="720" alt="hwkim3330_repositories" src="https://github.com/user-attachments/assets/858d7d98-3baf-42fb-ae66-844b2c6b9c74" />
 
 
 # 🚀 2025년 6월 프로젝트 시작 ✨
